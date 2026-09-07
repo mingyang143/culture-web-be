@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "check:dev": "node scripts/checkDevSupabase.cjs",
     "test": "jest",
     "lint": "eslint .",
     "format": "prettier --write .",
